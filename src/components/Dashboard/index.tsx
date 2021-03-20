@@ -2,7 +2,7 @@ import { Summary } from '../Summary';
 import { TransactionsTable } from '../TransactionsTable';
 import { Container } from './styles';
 
-function Dashboard() {
+export function Dashboard() {
   return (
     <Container>
       <Summary />
@@ -10,5 +10,3 @@ function Dashboard() {
     </Container>
   );
 }
-
-export default Dashboard;
